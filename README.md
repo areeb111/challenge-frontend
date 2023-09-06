@@ -1,3 +1,17 @@
+# TouchBistro Coding Challenge
+This project has been made to demonstrate my skills in front-end development using ReactJS
+
+# Questions
+Q: Do you have production experience with Node prior to the submission of this code challenge? 
+A: Yes, I have a prior experience for 2 years.
+
+Q: Do you have production experience with React prior to the submission of this code challenge?
+A: Yes, I have more than 5 years of experience with modern JS frameworks & libraries such as React, React-Native and VueJS, But most of my projects were written in VueJS.
+
+# Credits
+Areeb Al-Quraishi
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -9,7 +23,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
