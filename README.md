@@ -3,10 +3,11 @@ This project has been made to demonstrate my skills in front-end development usi
 
 # Questions
 <p>Q: Do you have production experience with Node prior to the submission of this code challenge? </p>
-A: Yes, I have a prior experience for 2 years.
+<p>A: Yes, I have a prior experience for 2 years.</p>
+
 
 <p>Q: Do you have production experience with React prior to the submission of this code challenge?</p>
-A: Yes, I have more than 5 years of experience with modern JS frameworks & libraries such as React, React-Native and VueJS, But most of my projects were written in VueJS.
+<p>A: Yes, I have more than 5 years of experience with modern JS frameworks & libraries such as React, React-Native and VueJS, But most of my projects were written in VueJS.</p>
 
 # Credits
 Areeb Al-Quraishi
@@ -30,8 +31,8 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Please make sure to run the backend project on port 3000 from the other repo first.\
+Then run this command to start the tests.
 
 ### `npm run build`
 
