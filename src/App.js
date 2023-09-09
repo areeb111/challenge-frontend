@@ -41,10 +41,10 @@ function App() {
       if (isSuccess) {
         return (
         <div className='output success'>
-          <div>Result:</div>
+          <div data-testid='result'>Result:</div>
           <div>
-            <div>Prime numbers: {primeNumbers}</div>
-            <div>Median: {median}</div>
+            <div data-testid='prime-numbers'>Prime numbers: {primeNumbers}</div>
+            <div data-testid='median'>Median: {median}</div>
           </div>
         </div>
       )} else {
@@ -70,12 +70,13 @@ function App() {
         <div className='myForm'>
          
             <label htmlFor="num">Input number</label>
-            <input type="number" id="num" onChange={e => setInputNumber(e.target.value)} name="num" placeholder="Enter a number" />
-            <button onClick={handleClick}>Calculate</button>
+            <input type="number" id="num" data-testid="input-number" onChange={e => setInputNumber(e.target.value)} name="num" placeholder="Enter a number" />
+            <button data-testid="calculate-button" onClick={handleClick}>Calculate</button>
        
         </div>
-        
-        <Result isSuccess={result} showInstructions={instrcutions} />
+        <div >
+          <Result isSuccess={result} showInstructions={instrcutions} />
+        </div>
       </header>
     </div>
   );
